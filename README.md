@@ -25,3 +25,5 @@ Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedba
 
 
 ![Captura de tela 2024-02-23 192757](https://github.com/LAKAKKK/POTI-DQS/assets/158624405/dd375614-3819-473b-a67b-8d5a5a6c4857)
+
+As musicas eu inspirei esse cara aqui: https://dribbble.com/shots/5455156-Car-HMI-assistant-Album-switching
