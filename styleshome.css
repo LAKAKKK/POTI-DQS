@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    line-height: 1.6;
+    background-image: url("png/wp12099854-aesthetic-night-city-desktop-wallpapers.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff6f6;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: rgba(20, 20, 20, 0.2);
+    padding: 15px;
+    width: 99%;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li:nth-child(3) a {
+    color: #fff;
+}
+
+nav ul li:nth-child(3) a:hover {
+    color: #555;
+}
+
+/* card */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 15px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card--front,
+.card--back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    backface-visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card--front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card--front i {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.card--front h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card--back {
+    transform: rotateY(180deg);
+}
+
+.card--back h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card--back p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 20px;
+}
+
+.card--dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.card--dark .card--front i {
+    color: #000000;
+}
+
+.card--dark .card--front h2,
+.card--dark .card--back h2 {
+    color: #000000;
+}
+
+.card--dark .card--back p {
+    color: #362a2a;
+}
+
+.Contact {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 20px;
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+.Contact a {
+	margin-bottom: 5px;
+}
+
+.Contact a:hover {
+	color: #555;
+}
+
+.Contact i {
+	font-size: 10px;
+}
+
+.Contact-bg {
+    background-color: #0202028c;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-gif {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    margin-right: 45px;
+    background-image: url("contact-5750_256.gif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-gif p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -75%);
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+}
