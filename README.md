@@ -14,3 +14,7 @@ Implementei uma Biblioteca onde pode escutar algumas musicas
 Adicionei um tela de login funciona: User: admin; pass: 123.
 Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedback.
 
+
+
+
+![Captura de tela 2024-02-23 170814](https://github.com/LAKAKKK/POTI-DQS/assets/158624405/d88ea7f4-7ee7-49a5-889e-4d4d0f214370)
