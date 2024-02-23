@@ -10,11 +10,18 @@ Interação dinâmica com JavaScript
 
 Últimas Atualizações:
 
-Implementei uma Biblioteca onde pode escutar algumas musicas
-Adicionei um tela de login funciona: User: admin; pass: 123.
+Implementei uma "Biblioteca" onde pode escutar algumas musicas
+Adicionei um tela de login funciona: 
+
+
+
+Tela de login:
+User: admin; pass: 123.
+
+
 Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedback.
 
 
 
 
-![Captura de tela 2024-02-23 170814](https://github.com/LAKAKKK/POTI-DQS/assets/158624405/d88ea7f4-7ee7-49a5-889e-4d4d0f214370)
+![Captura de tela 2024-02-23 192757](https://github.com/LAKAKKK/POTI-DQS/assets/158624405/dd375614-3819-473b-a67b-8d5a5a6c4857)
