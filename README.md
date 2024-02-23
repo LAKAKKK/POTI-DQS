@@ -10,7 +10,7 @@ Interação dinâmica com JavaScript
 
 Últimas Atualizações:
 
-Implementei uma "Biblioteca" onde pode escutar algumas musicas
+Implementei uma "Biblioteca" onde pode escutar algumas musicas. O que eu melhorarei vai colocar botão de volume e mais musicas.
 Adicionei um tela de login funciona: 
 
 
