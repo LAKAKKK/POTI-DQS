@@ -1,5 +1,4 @@
-/* author: https://codepen.io/ecemgo/pen/vYPadZz
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
@@ -92,7 +91,7 @@ body {
 
 .swiper-slide-active:hover .overlay ion-icon {
   font-size: 4rem;
-  color: #eb0b0b;
+  color: #77009b;
   opacity: 1;
   cursor: pointer;
 }
