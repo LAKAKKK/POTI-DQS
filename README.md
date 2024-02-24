@@ -26,4 +26,4 @@ Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedba
 
 
 
-As musicas eu inspirei esse cara aqui: https://dribbble.com/shots/5455156-Car-HMI-assistant-Album-switching
+As musicas eu me inspirei nesse cara: https://dribbble.com/shots/5455156-Car-HMI-assistant-Album-switching
