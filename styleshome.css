@@ -51,6 +51,7 @@ nav ul li:nth-child(3) a:hover {
     align-items: center;
     height: 100vh;
     padding: 0 15px;
+
 }
 
 .card {
@@ -58,10 +59,11 @@ nav ul li:nth-child(3) a:hover {
     width: 300px;
     height: 400px;
     background-color: #f4f4f4;
-    border-radius: 4px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform-style: preserve-3d;
     transition: all 0.6s ease;
+    margin: 0 7px;
 }
 
 .card:hover {
@@ -75,7 +77,7 @@ nav ul li:nth-child(3) a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #f4f4f4;
     backface-visibility: hidden;
     overflow: hidden;
@@ -157,11 +159,12 @@ nav ul li:nth-child(3) a:hover {
 }
 
 .Contact-bg {
-    background-color: #0202028c;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 4px;
     margin-top: 50px;
     text-align: center;
+    backdrop-filter: blur(5px);
 }
 
 .contact-gif {
