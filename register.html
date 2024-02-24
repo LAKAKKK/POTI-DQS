@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Form</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="register.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulário de Cadastro</title>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <form action="#" class="register-form" onsubmit="return validateForm()">
-        <h1 class="register-title">Register</h1>
+   <form action="#" class="register-form" onsubmit="return validateForm()">
+       <h1 class="register-title">Cadastro</h1>
 
-        <div class="input-box">
-            <i class='bx bxs-user'></i>
-            <input type="text" placeholder="Full Name">
+       <div class="input-box">
+           <i class='bx bxs-user'></i>
+           <input type="text" placeholder="Nome Completo">
         </div>
+      
+       <div class="input-box">
+           <i class='bx bxs-envelope'></i>
+           <input type="email" placeholder="E-mail">
+       </div>
        
-        <div class="input-box">
-            <i class='bx bxs-envelope'></i>
-            <input type="email" placeholder="Email">
-        </div>
-        
-        <div class="input-box">
-            <i class='bx bxs-user'></i>
-            <input type="text" placeholder="Username">
-        </div>
-        <div class="input-box">
-            <i class='bx bxs-lock-alt'></i>
-            <input type="password" placeholder="Password">
-        </div>
-        <div class="input-box">
-            <i class='bx bxs-lock-alt'></i>
-            <input type="password" placeholder="Confirm Password">
-        </div>
+       <div class="input-box">
+           <i class='bx bxs-user'></i>
+           <input type="text" placeholder="Nome de usuário">
+       </div>
+       
+       <div class="input-box">
+           <i class='bx bxs-lock-alt'></i>
+           <input type="password" placeholder="Senha">
+       </div>
+       <div class="input-box">
+           <i class='bx bxs-lock-alt'></i>
+           <input type="password" placeholder="Confirmar senha">
+       </div>
 
-        <div class="terms-box">
-            <input type="checkbox" id="terms" required>
-            <label for="terms">I agree to the <a href="#">terms of service</a></label>
-        </div>
+       <div class="terms-box">
+           <input type="checkbox" id="terms" required>
+           <label for="terms">Concordo com os <a href="#">termos de serviço</a></label>
+       </div>
 
-        <button class="register-btn" ><span class="loading"></span>Register</button>
+       <button class="register-btn" ><span class="loading"></span>Cadastrar</button>
 
-        <p class="login">
-            Already have an account?
-            <a href="login.html"><b>Login<b/></a>
-        </p>
-    </form>
+       <p class="login">
+           Já possui uma conta?
+           <a href="login.html"><b>Entrar<b/></a>
+       </p>
+   </form>
 </body>
 </html>

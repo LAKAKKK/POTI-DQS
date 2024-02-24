@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="login.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulário de Login</title>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <form action="#" class="login-form" id="loginForm">
-        <h1 class="login-title">Login</h1>
+   <form action="#" class="login-form" id="loginForm">
+       <h1 class="login-title">Entrar</h1>
 
-        <div class="input-box">
-            <i class='bx bxs-user'></i>
-            <input type="text" id="username" placeholder="Username">
-        </div>
-        <div class="input-box">
-            <i class='bx bxs-lock-alt'></i>
-            <input type="password" id="password" placeholder="Password">
-        </div>
+       <div class="input-box">
+           <i class='bx bxs-user'></i>
+           <input type="text" id="username" placeholder="Nome de usuário">
+       </div>
+       <div class="input-box">
+           <i class='bx bxs-lock-alt'></i>
+           <input type="password" id="password" placeholder="Senha">
+       </div>
 
-        <div class="remember-forgot-box">
-            <label for="remember">
-                <input type="checkbox" id="remember">
-                Remember me
-            </label>
-            <a href="#">Forgot Password?</a>
-        </div>
+       <div class="remember-forgot-box">
+           <label for="remember">
+               <input type="checkbox" id="remember">
+               Lembrar-me
+           </label>
+           <a href="#">Esqueceu a senha?</a>
+       </div>
 
-        <input type="submit" value="Login" class="input-box
-         login-btn" onclick="logar(); return false">
+       <input type="submit" value="Login" class="input-box login-btn" onclick="logar(); return false">
 
-        <p class="register">
-            Don't have an account?
-            <a href="register.html"><b>Register</b></a>
-        </p>
-    </form>
+       <p class="register">
+           Ainda não tem uma conta? 
+           <a href="register.html"><b>Registrar</b></a>
+       </p>
+   </form>
 
 <script>
-    function logar() {
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
+   function logar() {
+       var username = document.getElementById("username").value;
+       var password = document.getElementById("password").value;
 
-        if(username == "admin" && password == "123") {
-            alert("sucesso");
-            location.href = "home.html";
-        } else{
-            alert("usuario ou senha incorretos")
-        }
-    }
+       if(username == "admin" && password == "123") {
+           alert("sucesso");
+           location.href = "home.html";
+       } else {
+           alert("usuário ou senha incorretos");
+       }
+   }
 </script>
 
 </body>
