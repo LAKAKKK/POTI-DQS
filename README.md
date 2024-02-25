@@ -27,3 +27,35 @@ Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedba
 
 
 As musicas eu me inspirei nesse cara: https://dribbble.com/shots/5455156-Car-HMI-assistant-Album-switching
+
+
+-------------------------------------------------------
+
+# Formulário de Login Simples
+
+Este é um exemplo simples de formulário de login usando HTML, CSS e JavaScript. O formulário possui campos para inserir o nome de usuário e a senha, bem como opções para lembrar o nome de usuário e recuperar a senha.
+
+## Código HTML
+
+O formulário de login é criado usando a tag `<form>`. Dentro do formulário, há dois campos de entrada para o nome de usuário e a senha, cada um com um ícone correspondente. Além disso, há uma caixa de seleção para lembrar o nome de usuário e um link para recuperar a senha. O botão "Login" tem um manipulador de eventos `onclick` que chama a função `logar()` quando clicado.
+
+## Código CSS
+
+O arquivo "login.css" contém estilos para o formulário de login. Os estilos incluem cores, fontes, tamanhos e espaçamento.
+
+## Código JavaScript
+
+A função `logar()` é definida no arquivo JavaScript. Quando a função é chamada, ela obtém os valores dos campos de entrada do nome de usuário e da senha. Em seguida, verifica se o nome de usuário é "admin" e a senha é "123". Se ambas as condições forem verdadeiras, o usuário é autenticado com sucesso e redirecionado para a página "home.html". Caso contrário, uma mensagem de erro é exibida.
+
+```javascript
+function logar() {
+   var username = document.getElementById("username").value;
+   var password = document.getElementById("password").value;
+
+   if(username == "admin" && password == "123") {
+       alert("sucesso");
+       location.href = "home.html";
+   } else {
+       alert("usuário ou senha incorretos");
+   }
+}
