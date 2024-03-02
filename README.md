@@ -1,4 +1,4 @@
-##🚀 Meu Projeto 🚀
+🚀 Meu Projeto 🚀
 
 Este é o meu espaço de experimentação e aprendizado contínuo, onde estou colocando em prática os conhecimentos que venho adquirindo ao longo do tempo. Meu objetivo é construir um projeto pessoal, mas também de uma página dinâmica e interessante.
 
