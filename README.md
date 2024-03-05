@@ -28,6 +28,10 @@ Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedba
 As musicas eu me inspirei nesse cara: https://dribbble.com/shots/5455156-Car-HMI-assistant-Album-switching
 
 
+<img width="746" alt="Captura de tela 2024-03-05 094755" src="https://github.com/LAKAKKK/POTI-DQS/assets/158624405/708fcbe8-f4aa-4a7b-a760-c82777ba9f19">
+
+
+
 -------------------------------------------------------
 
 # Formulário de Login Simples
