@@ -7,7 +7,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     line-height: 1.6;
-    background-image: url("png/wp12099854-aesthetic-night-city-desktop-wallpapers.jpg");
+    background-image: url("png/pexels-piccinng-3075993 (2).jpg");
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -56,14 +56,15 @@ nav ul li:nth-child(3) a:hover {
 
 .card {
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     background-color: #f4f4f4;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform-style: preserve-3d;
     transition: all 0.6s ease;
     margin: 0 7px;
+    margin-top: 1px;
 }
 
 .card:hover {
@@ -147,7 +148,9 @@ nav ul li:nth-child(3) a:hover {
 }
 
 .Contact a {
-	margin-bottom: 5px;
+	margin-bottom: 1px;
+    text-decoration: none;
+    color: #fff6f6;
 }
 
 .Contact a:hover {
@@ -191,3 +194,111 @@ nav ul li:nth-child(3) a:hover {
     margin: 0;
     color: #fff;
 }
+
+.about-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border-radius: 10px; 
+
+  }
+
+  .liquid {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    border-radius: 0% 0% 50% 50% / 0 0 100% 100%;
+  }
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 115px; 
+  }
+  
+  .about {
+    padding: 6rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .left {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .right {
+    flex-basis: 50%;
+    padding-left: 2rem;
+  }
+    
+  .about h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .about h1 span {
+    color: var(--primary);
+  }
+  
+  .about h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .about p {
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary);
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+    flex-basis: 65%;
+  }
+  
+  .about .left {
+    flex-basis: 30%;
+    margin-right: 4%;
+  }
+  
+  .about .socials {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+  }
+  
+  .about .socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+  }
+  
+  .about .socials a:hover {
+    background: var(--primary);
+  }

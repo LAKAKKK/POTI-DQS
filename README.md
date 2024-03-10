@@ -8,9 +8,12 @@ HTML para estruturação
 Estilo com CSS
 Interação dinâmica com JavaScript
 
-Últimas Atualizações:
+## Últimas Atualizações:
 
 Implementei uma "Biblioteca" onde pode escutar algumas musicas. O que eu melhorarei vai colocar botão de volume e mais musicas.
+Adicioneis mais um about me com um background 
+
+
 Adicionei um tela de login funciona: 
 
 
@@ -58,3 +61,14 @@ function logar() {
        alert("usuário ou senha incorretos");
    }
 }
+
+
+
+
+
+
+
+
+
+
+##
