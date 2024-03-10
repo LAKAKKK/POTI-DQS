@@ -1,6 +1,6 @@
 ## 🚀 Meu Projeto 🚀
 
-Este é o meu espaço de experimentação e aprendizado contínuo, onde estou colocando em prática os conhecimentos que venho adquirindo ao longo do tempo. Meu objetivo é construir um projeto pessoal, mas também de uma página dinâmica e interessante.
+Este é o meu espaço de experimentação contínuo, onde estou colocando em prática os conhecimentos que venho adquirindo ao longo do tempo. Meu objetivo é construir um projeto pessoal, mas também de uma página dinâmica e interessante.
 
 O que você encontrará aqui:
 
@@ -29,6 +29,10 @@ Quero melhorar ainda mais e adiciona mais coisa. Fique à vontade para da feedba
 
 
 As musicas eu me inspirei nesse cara: https://dribbble.com/shots/5455156-Car-HMI-assistant-Album-switching
+
+
+<img width="746" alt="Captura de tela 2024-03-05 094755" src="https://github.com/LAKAKKK/POTI-DQS/assets/158624405/708fcbe8-f4aa-4a7b-a760-c82777ba9f19">
+
 
 
 -------------------------------------------------------
