@@ -1,5 +1,5 @@
 ## 🚀 Meu Projeto 🚀
-https://s7m789fp-5500.brs.devtunnels.ms/home.html
+
 Este é o meu espaço de experimentação contínuo, onde estou colocando em prática os conhecimentos que venho adquirindo ao longo do tempo. Meu objetivo é construir um projeto pessoal, mas também de uma página dinâmica e interessante.
 
 O que você encontrará aqui:
