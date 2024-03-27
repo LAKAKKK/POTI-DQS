@@ -1,16 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Space Mono", monospace  ;
+
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+  font-family: "Space Mono", monospace  ;
     line-height: 1.6;
-    background-image: url("png/pexels-piccinng-3075993 (2).jpg");
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
+    background-image: url("png/Default_imagem_de_fundo_para_uma_pagina_de_portfolio_pessoal_o_2\ \(1\).jpg");
+    background-size: contain;
+    background-position: auto;
+    justify-content: auto;
 }
 
 a {
@@ -46,6 +49,8 @@ nav ul li:nth-child(3) a:hover {
 /* card */
 
 .card-container {
+  font-family: "Space Mono", monospace  ;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,11 +255,16 @@ nav ul li:nth-child(3) a:hover {
   }
   
   .right {
+    font-family: "Space Mono", monospace  ;
+    color: black;
+    font-size: clamp(3rem, 10vw,);
     flex-basis: 50%;
     padding-left: 2rem;
+    text-transform: uppercase;
   }
     
   .about h1 {
+    
     margin-bottom: 1rem;
     font-size: 1.6rem;
     font-weight: 600;
@@ -302,3 +312,7 @@ nav ul li:nth-child(3) a:hover {
   .about .socials a:hover {
     background: var(--primary);
   }
+
+
+
+  

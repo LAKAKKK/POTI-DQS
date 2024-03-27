@@ -8,16 +8,18 @@
 }
 
 body {
+    font-family: "Space Mono", monospace  ;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("png/wp12985818-time-square-winter-wallpapers.jpg");
+    background-image: url("png/Default_imagem_de_fundo_para_uma_pagina_de_portfolio_pessoal_o_2.jpg");
     background-size: cover;
     background-position: center;
 }
-
 .login-form {
+    font-family: "Space Mono", monospace  ;
+    z-index: 2;
     background: rgba(64, 64, 64, 0.15);
     border: 3px solid rgba(255, 255, 255, 0.3);
     padding: 30px;
@@ -26,19 +28,22 @@ body {
     text-align: center;
     color: white;
     width: 400px;
-    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);  
 }
-
 .login-title {
+    font-family: "Space Mono", monospace  ;
     font-size: 40px;
     margin-bottom: 40px;
 }
-
 .input-box {
+    font-family: "Space Mono", monospace  ;
+
     margin: 20px 0;
     position: relative;
 }
 .input-box input {
+    font-family: "Space Mono", monospace  ;
+
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
     border: none;
@@ -54,48 +59,53 @@ body {
     color: rgba(255, 255, 255, 0.8);
     font-size: 17px;
     font-weight: 500;
+    font-family: "Space Mono", monospace  ;
+
 }
 .input-box input:focus {
     outline: 3px solid rgba(255, 255, 255, 0.3);
+
 }
 .input-box input::-ms-reveal {
     filter: invert(100%);
 }
-
 .input-box i {
     position: absolute;
-    left: 15px;
+    left: 13px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
     color: rgba(255, 255, 255, 0.8);
 }
-
 .remember-forgot-box {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 21px 0;
     font-size: 15px;
-}
+    font-family: "Space Mono", monospace  ;
 
+}
 .remember-forgot-box label {
     display: flex;
     gap: 8px;
     cursor: pointer;
+    font-family: "Space Mono", monospace  ;
+
 }
 .remember-forgot-box input {
     accent-color: white;
     cursor: pointer;
-}
 
+}
 .remember-forgot-box a {
     color: white;
     text-decoration: none;
+
 }
 .remember-forgot-box a:hover {
     text-decoration: underline;
-}
 
+}
 .login-btn {
     width: 100%;
     padding: 10px 0;
@@ -107,20 +117,74 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
+    font-family: "Space Mono", monospace  ;
+
 }
 .login-btn:hover {
     background: #0B87EC;
-}
 
+}
 .register {
     margin-top: 15px;
     font-size: 15px;
+    font-family: "Space Mono", monospace  ;
+
 }
 .register a {
     color: white;
     text-decoration: none;
     font-weight: 500;
+    font-family: "Space Mono", monospace  ;
 }
 .register a:hover {
     text-decoration: underline;
 }
+
+.drop {
+    z-index: 1;
+    background: rgba(64, 64, 64, 0.15);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(25000px) saturate(150%);
+    position: absolute;
+   
+  }
+  .drop-1{
+    height: 80px;
+    width: 80px;
+    top: -30px;
+    left: -40px;
+    z-index: -1;
+    border-radius: 55%;
+  }
+  .drop-2 {
+    height: 80px;
+    width: 80px;
+    bottom: -30px;
+    right: -10px;
+    z-index: -1;
+    border-radius: 550%;
+  }
+  .drop-3 {
+    height: 100px;
+    width: 100px;
+    bottom: 120px;
+    right: -50px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  .drop-4{
+    height: 120px;
+    width: 120px;
+    top: -60px;
+    right: -60px;
+    z-index: -1;
+    border-radius: 60%;
+  }
+  

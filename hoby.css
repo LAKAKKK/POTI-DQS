@@ -21,20 +21,20 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  background: url(png/wp2210916-yggdrasil-wallpapers.jpg);
+  background: url(png/Default_imagem_de_fundo_para_uma_pagina_de_portfolio_pessoal_o_0\ \(2\).jpg);
   background-repeat: no-repeat;
-  animation: slidein 60s forwards infinite alternate;
+  animation: slidein 30s forwards infinite alternate;
 }
 
 @keyframes slidein {
   0%,
   100% {
     background-position: 20% 0%;
-    background-size: 3400px;
+    background-size: 2380px;
   }
-  90% {
+  100% {
     background-position: 100% 100%;
-    background-size: 1800px;
+    background-size: 1344px;
   }
 }
 
